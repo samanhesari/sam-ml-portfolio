@@ -25,7 +25,7 @@ This repository contains a collection of my machine learning experiments and pro
 
 ## 📌 Project Details
 
-### 1. MNIST Classification
+### 1. MNIST: MLP vs CNN Comparison
 - Dataset: MNIST (handwritten digits)
 - Goal: Compare performance of **Neural Networks (NN)** vs **Convolutional Neural Networks (CNN)**
 - Focus:
