@@ -18,7 +18,8 @@ This repository contains a collection of my machine learning experiments and pro
 1. MNIST Classification  
 2. CIFAR Classification  
 3. Object Detection (Planned)  
-4. Machine Learning & Neural Networks Fundamentals  
+4. Machine Learning & Neural Networks Fundamentals 
+5. object tracking 
 
 ---
 
