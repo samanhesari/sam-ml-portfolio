@@ -16,10 +16,20 @@ This repository contains a collection of my machine learning experiments and pro
 ## 📁 Project List
 
 1. MNIST Classification  
+
 2. CIFAR Classification  
-3. Object Detection (Planned)  
+
+3. Object Detection (Planned) 
+
 4. Machine Learning & Neural Networks Fundamentals 
+
 5. object tracking 
+
+6- trans Learning
+
+8- Transformer
+
+9- RAG
 
 ---
 
