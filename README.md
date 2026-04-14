@@ -16,38 +16,50 @@ This repository contains a collection of my machine learning experiments and pro
 ## 📁 Project List
 
 1. MNIST Classification  
-
 2. CIFAR Classification  
-
-3. Object Detection (Planned) 
-
-4. Machine Learning & Neural Networks Fundamentals 
-
-5. object tracking 
-
-6- trans Learning
-
-8- Transformer
-
-9- RAG
+3. Object Detection (Planned)  
+4. Machine Learning & Neural Networks Fundamentals  
+5. object tracking  
+6. trans Learning  
+8. Transformer  
+9. RAG  
 
 ---
 
 ## 📌 Project Details
 
 ### 1. MNIST: MLP vs CNN Comparison
-- Dataset: MNIST (handwritten digits)
-- Goal: Compare performance of **Neural Networks (NN)** vs **Convolutional Neural Networks (CNN)**
+- Dataset: MNIST (handwritten digits)  
+- Goal: Compare performance of Neural Networks (NN) vs Convolutional Neural Networks (CNN)  
+
 - Focus:
-  - Accuracy comparison between NN and CNN
-  - Why CNN works better for images
-  - Basic image classification pipeline
+  - Accuracy comparison between NN and CNN  
+  - Why CNN works better for images  
+  - Building a basic image classification pipeline  
+
+#### Summary  
+This project compares two neural network architectures (MLP vs CNN) for handwritten digit classification. While both models achieve very high accuracy, the CNN performs better because it captures spatial features such as edges, curves, and shapes. In contrast, the MLP processes images as flattened vectors, losing important structural information.
+
+#### Quick Comparison
+
+| Aspect            | MLP (NN)                     | CNN                          |
+|------------------|------------------------------|------------------------------|
+| Input Type       | Flattened (1D)               | Image (2D)                   |
+| Feature Learning | No spatial awareness         | Learns spatial patterns      |
+| Parameters       | 443,610                      | 421,834                      |
+| Test Accuracy    | 98%                          | 99%                          |
+| Performance      | Good                         | Better                       |
+
+#### Key Insight  
+CNNs outperform traditional neural networks in image classification tasks because they preserve and learn spatial relationships within images, leading to better generalization on unseen data.
+
+👉 [View Project](https://github.com/samanhesari/mnist-fcnn-vs-cnn)
 
 ---
 
 ### 2. CIFAR Classification
 - Dataset: CIFAR-10 / CIFAR-100
-- Goal: Compare **CNN vs Vision Transformer (ViT)** or other modern models
+- Goal: Compare CNN vs Vision Transformer (ViT) or other modern models
 - Focus:
   - CNN vs Transformer comparison
   - Feature extraction differences
@@ -90,85 +102,67 @@ This repository contains a collection of my machine learning experiments and pro
 ---
 
 ## 🚀 Future Work
-- Improve model performance and optimization techniques
-- Add advanced architectures
-- Deploy models using Flask / FastAPI
-- Add visualization of training results
+- Improve model performance and optimization techniques  
+- Add advanced architectures  
+- Deploy models using Flask / FastAPI  
+- Add visualization of training results  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
 
 # 🚀 Featured Projects
 
 ## 🔢 1. MNIST Classification (NN vs CNN Comparison)
 A study comparing a simple Neural Network and a Convolutional Neural Network on the MNIST dataset.
 
-- Built and trained both NN and CNN models
-- Compared accuracy, convergence speed, and generalization
-- Demonstrated why CNNs outperform fully connected networks in image tasks
+- Built and trained both NN and CNN models  
+- Compared accuracy, convergence speed, and generalization  
+- Demonstrated why CNNs outperform fully connected networks in image tasks  
 
-👉 [View Project](https://github.com/yourusername/mnist-project)
+👉 https://github.com/yourusername/mnist-project
 
 ---
 
 ## 🖼️ 2. CIFAR-10 Image Classification
 Deep learning model for classifying 10 object categories in CIFAR-10 dataset.
 
-- Implemented CNN architecture from scratch
-- Used data augmentation to improve generalization
-- Evaluated model performance using accuracy and loss curves
+- Implemented CNN architecture from scratch  
+- Used data augmentation to improve generalization  
+- Evaluated model performance using accuracy and loss curves  
 
-👉 [View Project](https://github.com/yourusername/cifar10-project)
+👉 https://github.com/yourusername/cifar10-project
 
 ---
 
 ## 🧠 3. Vision Transformer (ViT)
 Implementation and experimentation with Vision Transformers for image classification.
 
-- Explored transformer-based architecture for vision tasks
-- Compared ViT performance with CNN-based models
-- Studied attention mechanisms in image understanding
+- Explored transformer-based architecture for vision tasks  
+- Compared ViT performance with CNN-based models  
+- Studied attention mechanisms in image understanding  
 
-👉 [View Project](https://github.com/yourusername/vit-project)
+👉 https://github.com/yourusername/vit-project
 
 ---
 
 ## 🎯 4. Object Detection System
 Deep learning-based object detection model for identifying objects in images.
 
-- Implemented object detection pipeline (YOLO/Faster R-CNN style)
-- Evaluated using IoU and detection accuracy
-- Visualized bounding box predictions on real images
+- Implemented object detection pipeline (YOLO/Faster R-CNN style)  
+- Evaluated using IoU and detection accuracy  
+- Visualized bounding box predictions on real images  
 
-👉 [View Project](https://github.com/yourusername/object-detection-project)
+👉 https://github.com/yourusername/object-detection-project
 
 ---
 
 # 🛠️ Skills
 
-- Python
-- PyTorch / TensorFlow
-- Convolutional Neural Networks (CNNs)
-- Vision Transformers (ViT)
-- Object Detection Models
-- Model Evaluation & Experimentation
+- Python  
+- PyTorch / TensorFlow  
+- Convolutional Neural Networks (CNNs)  
+- Vision Transformers (ViT)  
+- Object Detection Models  
+- Model Evaluation & Experimentation  
 
 ---
 
@@ -176,15 +170,15 @@ Deep learning-based object detection model for identifying objects in images.
 
 This portfolio demonstrates:
 
-- Understanding of classical ML and deep learning
-- Progression from CNNs → Transformers
-- Ability to compare and analyze models
-- Practical experience with computer vision problems
+- Understanding of classical ML and deep learning  
+- Progression from CNNs → Transformers  
+- Ability to compare and analyze models  
+- Practical experience with computer vision problems  
 
 ---
 
 # 📫 Contact
 
-- GitHub: https://github.com/yourusername
-- LinkedIn: your-link-here
-- Email: your-email@example.com
+- GitHub: https://github.com/yourusername  
+- LinkedIn: your-link-here  
+- Email: your-email@example.com  
